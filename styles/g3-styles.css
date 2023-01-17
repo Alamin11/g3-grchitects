@@ -5,7 +5,7 @@ body {
 
 .primary-btn {
     border: none;
-    font-size: 1.5vw;
+    font-size: 1.25em;
     font-weight: 600;
     padding: 10px;
     color: #ffffff;
@@ -170,6 +170,12 @@ ul li a {
     left: 64.2%;
     bottom: 14.1%;
     border-radius: 8px;
+    transition: transform 2s ease-in-out;
+
+}
+
+.loveable-features-img .primary-btn:hover {
+    transform: rotate(360deg);
 
 }
 
@@ -210,6 +216,11 @@ ul li a {
     text-align: center;
     padding: 1.5vw 2vw;
     border-radius: 8px;
+    transition: border 2s linear;
+}
+
+.facts-item:hover {
+    border: 3px solid sandybrown;
 }
 
 .facts-item-icon {
