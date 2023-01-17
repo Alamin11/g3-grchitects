@@ -335,10 +335,14 @@ ul li a {
 
     .facts-item-container {
         /* display: flex; */
-        flex-wrap: wrap;
-        row-gap: 2vw;
-        justify-content: space-evenly;
+        flex-direction: column;
+        row-gap: 3vw;
+        /* justify-content: space-evenly; */
         align-items: center;
+    }
+
+    .facts-item {
+        flex: 1;
     }
 
     /* Sponsors section responsive styles */
@@ -346,11 +350,11 @@ ul li a {
         flex-wrap: wrap;
         /* row-gap: 2vw;
         column-gap: 2vw; */
-        gap: 2vw;
+        row-gap: 3vw;
     }
 
     .sponsors-logo img {
-        width: 30vw;
+        /* width: 30vw; */
     }
 
 
