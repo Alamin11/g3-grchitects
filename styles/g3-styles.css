@@ -71,7 +71,8 @@ ul li a {
 .banner-description,
 .loveable-features-description,
 .features-description,
-.facts-description {
+.facts-description,
+.sponsors-description {
     font-size: 1.5vw;
     color: #727272;
     margin-bottom: 3vw;
@@ -148,7 +149,8 @@ ul li a {
 }
 
 .loveable-features-title,
-.facts-title {
+.facts-title,
+.sponsors-title {
     color: #131313;
     font-size: 2.5vw;
     font-weight: 700;
@@ -230,6 +232,28 @@ ul li a {
     color: #727272;
 }
 
+/* Sponsors section styles */
+.sponsors {
+    margin: 8% 10%;
+}
+
+.sponsors-info {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.sponsors-logo-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sponsors-logo img {
+    filter: sepia(100%);
+
+}
+
 /* Responsiveness styles */
 /* ------------------------
 --------Smaller devices -------*/
@@ -294,5 +318,19 @@ ul li a {
         justify-content: space-evenly;
         align-items: center;
     }
+
+    /* Sponsors section responsive styles */
+    .sponsors-logo-container {
+        flex-wrap: wrap;
+        /* row-gap: 2vw;
+        column-gap: 2vw; */
+        gap: 2vw;
+    }
+
+    .sponsors-logo img {
+        width: 30vw;
+    }
+
+
 
 }
