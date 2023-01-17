@@ -3,6 +3,16 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+.primary-btn {
+    border: none;
+    font-size: 1.5vw;
+    font-weight: 600;
+    padding: 10px;
+    color: #ffffff;
+    background: #FF900E;
+    border-radius: 8px;
+}
+
 /* Header styles */
 .header {
     /* margin: 0 200px; */
@@ -18,10 +28,15 @@ body {
     margin-bottom: 80px;
 }
 
+.hamburger {
+    display: none;
+}
+
 .nav-title {
     color: #131313;
-    font-size: 36px;
-    font-family: 'work';
+    font-size: 2vw;
+    font-weight: 700;
+    /* font-family: 'work'; */
 }
 
 .nav-item-container {
@@ -38,4 +53,55 @@ ul li {
 ul li a {
     text-decoration: none;
     color: #424242;
+}
+
+/* Banner styles */
+.banner-container {
+    margin: 0 10%;
+    text-align: center;
+}
+
+.banner-title {
+    font-size: 6vw;
+    font-weight: 700;
+    color: #131313;
+    /* font-family: 'Work Sans', sans-serif; */
+}
+
+.banner-description {
+    font-size: 1.5vw;
+    color: #727272;
+    margin-bottom: 3vw;
+}
+
+.banner-image img {
+    margin: 3vw 0;
+    width: 100%;
+    border-radius: 8px;
+
+}
+
+/* Responsiveness styles */
+/* ------------------------
+--------Smaller devices -------*/
+@media screen and (max-width: 576px) {
+
+    /* Navigation section styles for smaller devices */
+    .nav-item-container {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+        color: #424242;
+        font-size: 24px;
+    }
+
+    .nav-container {
+        justify-content: space-between;
+    }
+
+    .nav-title {
+        font-size: 24px;
+    }
 }
