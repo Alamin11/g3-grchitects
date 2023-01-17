@@ -81,6 +81,50 @@ ul li a {
 
 }
 
+/* Main section styles */
+/* Quick feature styles */
+.quick-feature-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 8% 10%;
+    gap: 5vw;
+
+}
+
+.quick-feature-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vw;
+    flex: 0 1 auto;
+
+}
+
+.quick-feature-img img {
+    /* max-width: 100%; */
+    width: 20vw;
+}
+
+.quick-feature-title {
+    font-size: 2.5vw;
+    color: #131313;
+    font-weight: 700;
+}
+
+.quick-list {
+    font-weight: 500;
+    color: #727272;
+}
+
+.of-our {
+    font-weight: 700;
+    color: #131313;
+}
+
+.features {
+    font-weight: 700;
+    color: #FF900E;
+}
+
 /* Responsiveness styles */
 /* ------------------------
 --------Smaller devices -------*/
@@ -103,5 +147,14 @@ ul li a {
 
     .nav-title {
         font-size: 24px;
+    }
+
+    /* Quick features responsiveness */
+    .quick-feature-container {
+        flex-direction: column-reverse;
+    }
+
+    .quick-feature-img img {
+        width: 40vw;
     }
 }
