@@ -36,7 +36,6 @@ body {
     color: #131313;
     font-size: 2vw;
     font-weight: 700;
-    /* font-family: 'work'; */
 }
 
 .nav-item-container {
@@ -252,6 +251,18 @@ ul li a {
 .sponsors-logo img {
     filter: sepia(100%);
 
+}
+
+.footer {
+    background-color: #FFF4E7;
+    text-align: center;
+    margin: 0 10%;
+}
+
+.footer-text {
+    padding: 3vw;
+    color: #424242;
+    font-size: 1.5vw;
 }
 
 /* Responsiveness styles */
