@@ -70,7 +70,8 @@ ul li a {
 
 .banner-description,
 .loveable-features-description,
-.features-description {
+.features-description,
+.facts-description {
     font-size: 1.5vw;
     color: #727272;
     margin-bottom: 3vw;
@@ -146,7 +147,8 @@ ul li a {
 
 }
 
-.loveable-features-title {
+.loveable-features-title,
+.facts-title {
     color: #131313;
     font-size: 2.5vw;
     font-weight: 700;
@@ -185,6 +187,47 @@ ul li a {
     font-size: 1.8vw;
     font-weight: 600;
     color: #131313;
+}
+
+/* Facts section */
+.facts {
+    margin: 8% 10%;
+}
+
+.facts-description {
+    width: 50%;
+}
+
+.facts-item-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.facts-item {
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 1.5vw 2vw;
+    border-radius: 8px;
+}
+
+.facts-item-icon {
+    color: #FF900E;
+    font-size: 3vw;
+}
+
+.facts-number {
+    font-size: 2vw;
+    font-weight: 700;
+    color: #424242;
+    margin-top: 1vw;
+
+}
+
+.facts-item-title {
+    font-size: 1.5vw;
+    font-weight: 500;
+    color: #727272;
 }
 
 /* Responsiveness styles */
@@ -237,6 +280,19 @@ ul li a {
     .loveable-features-img button {
 
         position: static;
+    }
+
+    /* Facts responsiveness */
+    .facts-description {
+        width: 80%;
+    }
+
+    .facts-item-container {
+        /* display: flex; */
+        flex-wrap: wrap;
+        row-gap: 2vw;
+        justify-content: space-evenly;
+        align-items: center;
     }
 
 }
